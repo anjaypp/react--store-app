@@ -1,0 +1,19 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: black; /* Change this to your desired color */
+}
+
+.menu-item {
+    color: white; /* Change the text color for menu items */
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Add hover effect */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .navbar {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
